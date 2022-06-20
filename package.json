@@ -1,0 +1,24 @@
+{
+	"name": "electron-pure",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^19.0.4",
+		"electron-rebuild": "^3.2.7",
+		"electron-reloader": "^1.2.3"
+	},
+	"dependencies": {
+		"cap": "^0.2.1",
+		"electron-pug": "^2.0.0",
+		"jquery": "^3.6.0",
+		"pcap-ng-parser": "^1.0.0",
+		"pcap-parser": "^0.2.1",
+		"pug": "^3.0.2"
+	}
+}

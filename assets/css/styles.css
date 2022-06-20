@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	color:rgb(71, 71, 71);
+}
+
+#buttonBody{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#loadFile{
+	background-color: rgb(138, 136, 136);
+	width:200px;
+	height: 100px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	user-select: none;
+	cursor: pointer;
+	transition: 0.1s;
+}
+#loadFile:hover{
+	transform: scale(1.02);
+}
+#loadFile img {
+	margin-right: 8px;
+	filter: opacity(0.7);
+}
+#loadFile div{
+	font-size: 20px;
+	color:rgb(228, 228, 228)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#infoBody{
+	display:none;
+	width:100%;
+	height:100vh;
+	background-color: #FFF;
+	
+}
+.packet::before{
+	content: "Packet";
+}
+.packet{
+	display: flex;
+	padding: 5px 10px;
+	background-color: #FFF;
+	margin:5px 7px;
+	border: 1px solid rgb(209, 209, 209);
+	border-radius: 3px;
+	flex-direction: column;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+.packet > .child {
+	margin-left: 10px;
+}
+.packet > .bigChild {
+	margin-left: 10px;
+}
+.child{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+	color:rgb(119, 119, 119);
+}
+.bigChild{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.bigChild > .child{
+	margin-left: 15px;
+}
+.bigChild > .bigChild{
+	margin-left: 10px;
+}
+.dataArrow::before{
+	content: ">\00a0";
+}
+.dataDefis::before{
+	content: "-\00a0";
+}
+.bigChildData{
+	display: flex;
+	flex-direction: row;
+}
+.key::after{
+	content: "\00a0:\00a0";
+}
