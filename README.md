@@ -1,5 +1,5 @@
 ### Build and run
-`$ git clone https://github.com/Virg29/wireshark_stats.git`
+`$ git clone https://github.com/Virg29/packettester.git`
 
 `$ npm install`
 
